@@ -328,11 +328,10 @@ import HomeDemo6IconsH22 from "../../assets/img/icons/h22.png"
 import HomeDemo6IconsH3 from "../../assets/img/icons/h3.png"
 import HomeDemo6IconsH33 from "../../assets/img/icons/h33.png"
 
-// import HomeDemo6Feature1 from "../../assets/img/core-img/feature-1.png"
+import HomeDemo6Feature1 from "../../assets/img/core-img/feature-1.png"
 import HomeDemo6SmallCar from "../../assets/img/core-img/small-car.png"
 
 import HomeDemo6Platform1 from "../../assets/img/core-img/platform1.png"
-// import HomeDemo6About1 from "../../assets/img/core-img/about-1.png"
 import HomeDemo6JoinBottom from "../../assets/img/svg/join-bottom.svg"
 
 import HomeDemo6Computer from "../../assets/img/core-img/computer.png"
@@ -377,7 +376,6 @@ import HomeDemo6BlogImg1 from "../../assets/img/blog-img/1.jpg"
 import HomeDemo6BlogImg2 from "../../assets/img/blog-img/2.jpg"
 import HomeDemo6BlogImg3 from "../../assets/img/blog-img/3.jpg"
 
-import HomeDemo6Feature1 from "../../assets/img/features/feature-1.svg"
 import HomeDemo6Feature2 from "../../assets/img/features/feature-2.svg"
 import HomeDemo6Feature3 from "../../assets/img/features/feature-3.svg"
 import HomeDemo6Feature4 from "../../assets/img/features/feature-4.svg"

@@ -52,7 +52,7 @@ const HomeDemo6Container = () => {
 
     return (
       <div>
-        <Header Title="Home Template6" />
+        <Header Title="TIPS | Trust In People" />
         <SecHeroSection
           ClassSec="hero-section moving section-padding"
           ClassDiv="col-12 col-lg-6 col-md-12"
