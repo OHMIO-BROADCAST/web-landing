@@ -30,7 +30,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
  .shrink {
     animation: .3s ease-in-out;
     animation-name: fadeInDown;
-    background-color: rgb(215, 223, 239);
+    background-color: rgb(39,11,76);
 }
 
 @-webkit-keyframes fadeInDown {
@@ -52,7 +52,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 /* mobile view */
 @media (max-width:500px)
 {
-    .navbar{ background: rgb(215, 223, 239);}
+    .navbar{ background: #270B4C;}
     .navbar-nav{
         border-top:1px solid #fed136;
         color:#fff;
@@ -85,19 +85,19 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
         padding: 5px 12px;
         color: #333
     }
-    .navbar-expand-lg.navbar-dark {background: rgb(215, 223, 239);}
+    .navbar-expand-lg.navbar-dark {background: rgb(39,11,76);}
     .navbar-collapse{
         padding-top: 20px;
-        background: rgb(215, 223, 239)
+        background: rgb(39,11,76)
     }
 }
 .navbar-white.shrink .navbar-brand,
 .shrink .navbar-nav .nav-item .nav-link{
-    color: #333
+    color: #FFF
 }
 
 .navbar-dark .navbar-brand,
-.navbar-dark .navbar-nav .nav-item .nav-link{color: #333}
+.navbar-dark .navbar-nav .nav-item .nav-link{color: #fff}
 
 .navbar-cyan .navbar-brand,
 .navbar-cyan .navbar-nav .nav-item .nav-link{color: #04d0ff}
@@ -140,7 +140,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
  .shrink {
     animation: .3s ease-in-out;
     animation-name: fadeInDown;
-    background-color: rgb(215, 223, 239);
+    background-color: rgb(39,11,76);
 }
 
 @-webkit-keyframes fadeInDown {
@@ -157,12 +157,12 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
   }
 }
 .navbar-white .navbar-brand:hover{color:#fff}
-.navbar-dark .navbar-brand:hover{color:#333}
+.navbar-dark .navbar-brand:hover{color:#fed136}
 
 /* mobile view */
 @media (max-width:500px)
 {
-    .navbar{ background: rgb(215, 223, 239);}
+    .navbar{ background: rgb(39,11,76);}
     .navbar-nav{
         border-top:1px solid #fed136;
         color:#fff;
@@ -180,7 +180,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .navbar-white .navbar-toggler,
 .navbar-cyan .navbar-toggler{
     background: #086bfe ;
-    border-color: #333
+    border-color: #fed136
 }
 .navbar-white .navbar-toggler-icon{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
@@ -193,17 +193,17 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     }
     .navbar-collapse .navbar-nav .nav-item .nav-link{
         padding: 5px 12px;
-        color: #333
+        color: #fff
     }
-    .navbar-expand-lg.navbar-dark {background: rgb(215, 223, 239);}
+    .navbar-expand-lg.navbar-dark {background: rgb(39,11,76);}
     .navbar-collapse{
         padding-top: 20px;
-        background: rgb(215, 223, 239)
+        background: rgb(39,11,76)
     }
 }
 .navbar-white.shrink .navbar-brand,
 .shrink .navbar-nav .nav-item .nav-link{
-    color: #333
+    color: #fff
 }
 
 .navbar-dark .navbar-brand,

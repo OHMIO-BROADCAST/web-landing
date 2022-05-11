@@ -28,7 +28,7 @@ const Header = ({Title}) => {
   return (
     <>
       <Preloader Title={Title} />
-      <SecHeader Logo={Logo} dropdownItem={dropdownItem} MenuInfo={MenuInfo} />
+      <SecHeader Logo={Logo}  dropdownItem={dropdownItem} MenuInfo={MenuInfo} />
 
     </>
   );

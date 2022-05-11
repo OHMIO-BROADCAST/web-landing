@@ -385,7 +385,7 @@ import HomeDemo6Feature7 from "../../assets/img/features/feature-7.svg"
 import HomeDemo6Feature8 from "../../assets/img/features/feature-8.svg"
 
 
-import HeaderLogo from "../../assets/img/core-img/logo.png"
+import HeaderLogo from "../../assets/img/core-img/LogoTIPSparaDark.png"
 
 import FooterLogo from "../../assets/img/core-img/logo.png"
 

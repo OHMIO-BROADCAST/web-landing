@@ -42,7 +42,7 @@ const SecHeroSection = ({
               <div className="col-lg-6">
                 {HomeDemo1Or4Or5Or6 && (
                   <div className="illusto-2">
-                    <img draggable="false" draggable="false" src={img} alt="" />
+                    <img draggable="false" src={img} alt="" />
                   </div>
                 )}
               </div>
