@@ -1,6 +1,7 @@
 const SectionHeading = ({
 	title,
 	text,
+	description,
 	img,
 	ClassSpan="dream-dots justify-content-center",
 	ClassSpanTitle=""
@@ -22,7 +23,7 @@ const SectionHeading = ({
 	            <span className={ClassSpanTitle}>{title}</span>
 	        </div>
             <h2 data-aos="fade-up">{text}</h2>
-            <p data-aos="fade-up">Usamos Smart Contracts y tecnologia Blockchain para ofrecerte diferentes productos y servicios listos para aumentar tus ingresos. Ahora es posible custodiar tus fondos y educarte al mismo tiempo</p>
+            <p data-aos="fade-up">{description}</p>
 	      </div>
 
       	)}

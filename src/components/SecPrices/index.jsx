@@ -9,7 +9,7 @@ const SecPrices = ({ClassSec="features section-padding-0-70" , data , ClassSpanT
         <div className="container">
 
           <SectionHeading
-            title="Token Prices"
+            title="Precios Robots HFT"
             text="Our Token Prices"
             ClassSpanTitle={ClassSpanTitle}
           />          

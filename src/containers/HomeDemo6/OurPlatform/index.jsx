@@ -13,16 +13,17 @@ const OurPlatform = ({data}) => {
         <div className="container">
 
           <SectionHeading
-            title="Try our Platform"
-            text="Our Trading Platform"
+            title="Prueba TIPS"
+            text="Nuestra Plataforma"
+            description="TIPS utiliza Blockchain para llevar a cabo todo el aspecto de compra y recompensas de los robots de trading de alta frecuencia (HFT)"
           />
 
           <div className="row align-items-center">
             <div className="service-img-wrapper col-lg-5 col-md-12 col-sm-12 no-padding-right">
               <div className="features-list">
                 <div className="who-we-contant">
-                  <h4 className="w-text" data-aos="fade-up" data-aos-delay="200">Powerful platform.</h4>
-                  <p className="w-text" data-aos="fade-up" data-aos-delay="300">We are dedicated to providing professional service with the highest degree of honesty and integrity, and strive to add value to our tax and consulting services.</p>
+                  <h4 className="w-text" data-aos="fade-up" data-aos-delay="200">Plataforma Poderosa.</h4>
+                  <p className="w-text" data-aos="fade-up" data-aos-delay="300">Usando tecnologia Blockchain ofrecemos variedad de servicios Crypto.</p>
                 </div>
                 <ul className="list-marked">
                   {data && data.map((item , key) => (

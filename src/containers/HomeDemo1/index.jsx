@@ -71,7 +71,7 @@ const HomeDemo1Container = () => {
         <SecAbout
           imgDwon={false}
           title="Decentralized Trading Platform"
-          text="Connect blockchain to the real world and start crypto tading."
+          text="Conecta la Blockchain con el mundo real y comienza a hacer trading en FOREX."
           img={HomeDemo1About1}
         />
         <JoinUs

@@ -4,10 +4,11 @@ import {addRemoveClassBody} from '../../utils'
 import {
         SecTrustContent,
         OurTeamInfo,
-        OurBlogInfo
+        OurBlogInfo,
+        SmartContractinfo
        } from '../../data/data-containers/HomeDemo6/data-HomeDemo6.js';
 
-import PlatformIco from '../../data/data-containers/HomeDemo4/data-PlatformIco.json';
+import PlatformIco from '../../data/data-containers/HomeDemo6/data-PlatformIco.json';
 
 import SecPricesInfo from '../../data/data-containers/HomeDemo5/data-SecPricesInfo.json';
 import FeaturesOtherTop from '../../data/data-containers/HomeDemo6/data-FeaturesOtherTop.json';
@@ -15,6 +16,7 @@ import FeaturesOtherDown from '../../data/data-containers/HomeDemo6/data-Feature
 import TokenDistributionInfo from '../../data/data-containers/HomeDemo6/data-TokenDistributionInfo.json';
 import RoadmapInfo from '../../data/data-containers/HomeDemo6/data-RoadmapInfo.json';
 import FaqInfo from '../../data/data-containers/HomeDemo6/data-FaqInfo.json';
+import SmartContract from '../../components/SmartContract'
 
 import {
         HomeDemo6Wwhitepaper,
@@ -41,6 +43,8 @@ import OurBlog from '../../components/OurBlog'
 
 import SecTrust from './SecTrust'
 import OurPlatform from './OurPlatform'
+import OurServices from "../HomeDemo5/OurServices";
+import { Services } from "../../data/data-containers/HomeDemo5/data-HomeDemo5";
 
 
 
@@ -57,15 +61,17 @@ const HomeDemo6Container = () => {
           ClassSec="hero-section moving section-padding"
           ClassDiv="col-12 col-lg-6 col-md-12"
           specialHead='"La gente de exito no va detrás del dinero, sino detrás de un sueño"'
-          title="Licencias para robots de trading en alta frecuencia (HFT)"
+          title="Sistemas de trading en alta frecuencia (HFT)"
           link1="Ver más"
           link2="App"
           img={HomeDemo6About1}
         />
-        
         <div className="clearfix" />
         <SecTrust data={SecTrustContent} />
         <div className="clearfix" />
+        {/* <OurServices data={Services} />
+        <div className="clearfix" /> */}
+
         <AboutOther
             ClassTitle="gradient-text"
         />
@@ -74,14 +80,18 @@ const HomeDemo6Container = () => {
             ClassSec="features section-padding-0-100"
             data={SecPricesInfo}
         />
+       {/*  <SecPrices
+            ClassSec="features section-padding-0-100"
+            data={SecPricesInfo}
+        /> */}
         <div className="clearfix" />
         <SpreadMap
             Wwhitepaper={HomeDemo6Wwhitepaper}
         />
-        <TokenDistribution
+ {/*        <TokenDistribution
             data={TokenDistributionInfo}
             ClassSpanTitle="gradient-text blue"
-        />
+        /> 
         <Roadmap
             data={RoadmapInfo}
             ClassSpanTitle="gradient-text blue"
@@ -91,20 +101,22 @@ const HomeDemo6Container = () => {
             addOther={true}
             FeaturesOtherTop={FeaturesOtherTop}
             FeaturesOtherDown={FeaturesOtherDown}
-        />
-        <Faq
+        />*/}
+                <SmartContract data={SmartContractinfo} />
+
+        {/* <Faq
             data={FaqInfo}
             ClassSpanTitle="gradient-text blue"
-        />
-        <OurTeam
+        /> */}
+       {/*  <OurTeam
             data={OurTeamInfo}
             ClassSpanTitle="gradient-text blue"
-        />
-        <Subscribe />
-        <OurBlog
+        /> */}
+        <Subscribe  />
+        {/* <OurBlog
             data={OurBlogInfo}
             ClassSpanTitle="gradient-text blue"
-        />
+        /> */}
         <FooterPages
             ClassSpanTitle="gradient-text blue"
         />

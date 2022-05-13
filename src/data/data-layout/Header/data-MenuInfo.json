@@ -4,16 +4,8 @@
 		"nameLink":"Home"
 	},
 	{
-		"path":"#about",
-		"nameLink":"Nosotros"
-	},
-	{
 		"path":"#services",
 		"nameLink":"Servicios"
-	},
-	{
-		"path":"#roadmap",
-		"nameLink":"Roadmap"
 	},
 	{
 		"path":"#faq",

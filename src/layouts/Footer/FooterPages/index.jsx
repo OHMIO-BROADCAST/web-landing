@@ -17,7 +17,9 @@ const FooterPages = ({ClassSpanTitle=""}) => {
         {/* ##### Contact Area Start ##### */}
         <div className="contact_us_area section-padding-0-0" id="contact">
           <div className="container">
-            <div className="row">
+
+            {/* <div className="row">
+
               <div className="col-12">
                 <SectionHeading
                   title="Contact us"
@@ -26,9 +28,10 @@ const FooterPages = ({ClassSpanTitle=""}) => {
                 />
 
               </div>
-            </div>
+            </div> */}
+            
             {/* Contact Form */}
-            <div className="row justify-content-center">
+            {/* <div className="row justify-content-center">
               <div className="col-12 col-md-10 col-lg-8">
                 <div className="contact_form">
                   <form action="#" method="post" id="main_contact_form" noValidate>
@@ -75,9 +78,13 @@ const FooterPages = ({ClassSpanTitle=""}) => {
                   </form>
                 </div>
               </div>
-            </div>
+            </div> */}
+
           </div>
+          
         </div>
+
+        
         {/* ##### Contact Area End ##### */}
         <div className="footer-area bg-img" style={{backgroundImage: `url(${FooterPattern})`}}>
           <div className="footer-content-area demo">

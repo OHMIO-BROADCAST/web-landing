@@ -31,7 +31,7 @@ const SecHeroSection = ({
                   <h3 className="special-head dark">{specialHead}</h3>
                 </div>
                 <h1>{title}</h1>
-                <p className="w-text fadeInUp" data-wow-delay="0.3s">Nuestro software está diseñado para hacer trading de forma automática en FOREX, que es la conversión de una divisa a otra.</p>
+                <p className="w-text fadeInUp" data-wow-delay="0.3s">Nuestro software está diseñado para hacer trading de forma automática en FOREX, que es la conversión de una divisa a otra. Todo nuestro sistema se encuentra desarrollado sobre Blockchain.</p>
                 <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s">
                   <a href="#" className="btn more-btn mr-3">{link1}</a>
                   <a href="https://main.d32qe2nigltets.amplifyapp.com/" target="_self" className="btn more-btn-app">{link2}</a>
