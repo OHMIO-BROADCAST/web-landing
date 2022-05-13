@@ -65,9 +65,12 @@ const HomeDemo6Container = () => {
           link1="Ver más"
           link2="App"
           img={HomeDemo6About1}
+          id="home"
         />
         <div className="clearfix" />
-        <SecTrust data={SecTrustContent} id="services" />
+        <SecTrust data={SecTrustContent} 
+        id="services"
+          />
         <div className="clearfix" />
         {/* <OurServices data={Services} />
         <div className="clearfix" /> */}
@@ -87,6 +90,8 @@ const HomeDemo6Container = () => {
         <div className="clearfix" />
         <SpreadMap
             Wwhitepaper={HomeDemo6Wwhitepaper}
+            id="wallet"
+
         />
  {/*        <TokenDistribution
             data={TokenDistributionInfo}
