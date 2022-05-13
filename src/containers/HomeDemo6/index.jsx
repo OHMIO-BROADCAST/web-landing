@@ -55,7 +55,7 @@ const HomeDemo6Container = () => {
     },[])
 
     return (
-      <div>
+      <div style={{scrollBehavior:'smooth'}}>
         <Header Title="TIPS | Trust In People" />
         <SecHeroSection
           ClassSec="hero-section moving section-padding"
@@ -67,7 +67,7 @@ const HomeDemo6Container = () => {
           img={HomeDemo6About1}
         />
         <div className="clearfix" />
-        <SecTrust data={SecTrustContent} />
+        <SecTrust data={SecTrustContent} id="services" />
         <div className="clearfix" />
         {/* <OurServices data={Services} />
         <div className="clearfix" /> */}
@@ -102,8 +102,8 @@ const HomeDemo6Container = () => {
             FeaturesOtherTop={FeaturesOtherTop}
             FeaturesOtherDown={FeaturesOtherDown}
         />*/}
-                <SmartContract data={SmartContractinfo} />
-
+{/*                 <SmartContract data={SmartContractinfo} />
+ */}
         {/* <Faq
             data={FaqInfo}
             ClassSpanTitle="gradient-text blue"

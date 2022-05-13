@@ -13,7 +13,7 @@ const SecPrices = ({ClassSec="features section-padding-0-70" , data , ClassSpanT
             text="Our Token Prices"
             ClassSpanTitle={ClassSpanTitle}
           />          
-          <div className="row align-items-center">
+          <div className="row align-items-center" style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
             {data && data.map((item , key) => (
               <PricingItem
                 key={key}

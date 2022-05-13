@@ -33,15 +33,11 @@ import {
 export const SecTrustContent = [
     {
         img:HomeDemo6Platforms1,
-        CheckIcon:true
+        value:'Robots HFT',
     },
     {
         img:HomeDemo6Platforms2,
-        CheckIcon:false
-    },
-    {
-        img:HomeDemo6Platforms3,
-        CheckIcon:false
+        value:'Educación Blockchain',
     }
 ]
 

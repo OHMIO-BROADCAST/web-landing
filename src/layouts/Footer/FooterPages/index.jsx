@@ -1,7 +1,8 @@
 import{
   FooterPattern,
-  FooterLogo
 } from '../../../utils/allImgs'
+
+import FooterLogo from '../../../assets/img/core-img/LogoTIPSparaDark.png'
 
 import SectionHeading from "../../../components/SectionHeading"
 
@@ -94,9 +95,9 @@ const FooterPages = ({ClassSpanTitle=""}) => {
                   <div className="footer-copywrite-info">
                     <div className="copywrite_text fadeInUp" data-wow-delay="0.2s">
                       <div className="footer-logo">
-                        <a href="#"><img draggable="false" src={FooterLogo} alt="logo" /> </a>
+                        <a href="#"><img draggable="false" src={FooterLogo} alt="logo" style={{width:'9rem'}}/> </a>
                       </div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ducimus voluptatibus neque illo id repellat quisquam? Autem expedita earum quae laborum ipsum ad.</p>
+                      <p>Trading de alta frecuencia (HFT) usando inteligencia artificial (AI) y tecnologia Blockchain.</p>
                     </div>
                     <div className="footer-social-info fadeInUp" data-wow-delay="0.4s">
                       {IcoName && IcoName.map((item , key) => (

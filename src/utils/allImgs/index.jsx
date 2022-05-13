@@ -77,8 +77,8 @@ import HomeDemo2JoinBottom from "../../assets/img/svg/join-bottom.svg"
 
 import HomeDemo2Computer from "../../assets/img/core-img/computer.png"
 
-import HomeDemo2Platforms1 from "../../assets/img/ico-platforms/1.png"
-import HomeDemo2Platforms2 from "../../assets/img/ico-platforms/2.png"
+import HomeDemo2Platforms1 from "../../assets/img/ico-platforms/robotsito.png"
+import HomeDemo2Platforms2 from "../../assets/img/ico-platforms/robotsitoestudia.png"
 import HomeDemo2Platforms3 from "../../assets/img/ico-platforms/3.png"
 import HomeDemo2Platforms4 from "../../assets/img/ico-platforms/4.png"
 import HomeDemo2Platforms5 from "../../assets/img/ico-platforms/5.png"
@@ -336,8 +336,8 @@ import HomeDemo6JoinBottom from "../../assets/img/svg/join-bottom.svg"
 
 import HomeDemo6Computer from "../../assets/img/core-img/computer.png"
 
-import HomeDemo6Platforms1 from "../../assets/img/ico-platforms/1.png"
-import HomeDemo6Platforms2 from "../../assets/img/ico-platforms/2.png"
+import HomeDemo6Platforms1 from "../../assets/img/ico-platforms/robotsito.png"
+import HomeDemo6Platforms2 from "../../assets/img/ico-platforms/robotsitoestudia.png"
 import HomeDemo6Platforms3 from "../../assets/img/ico-platforms/3.png"
 import HomeDemo6Platforms4 from "../../assets/img/ico-platforms/4.png"
 import HomeDemo6Platforms5 from "../../assets/img/ico-platforms/5.png"
