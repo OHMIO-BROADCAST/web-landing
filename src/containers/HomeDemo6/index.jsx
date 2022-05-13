@@ -56,12 +56,13 @@ const HomeDemo6Container = () => {
         <SecHeroSection
           ClassSec="hero-section moving section-padding"
           ClassDiv="col-12 col-lg-6 col-md-12"
-          specialHead="Creative landing page template"
-          title="Decenteralized ICO and Crypto Trading Platform"
-          link1="Whitepaper"
-          link2="Buy Token"
+          specialHead='"La gente de exito no va detrás del dinero, sino detrás de un sueño"'
+          title="Licencias para robots de trading en alta frecuencia (HFT)"
+          link1="Ver más"
+          link2="App"
           img={HomeDemo6About1}
         />
+        
         <div className="clearfix" />
         <SecTrust data={SecTrustContent} />
         <div className="clearfix" />

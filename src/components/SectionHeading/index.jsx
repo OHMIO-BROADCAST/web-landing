@@ -22,7 +22,7 @@ const SectionHeading = ({
 	            <span className={ClassSpanTitle}>{title}</span>
 	        </div>
             <h2 data-aos="fade-up">{text}</h2>
-            <p data-aos="fade-up">Our ICO Template Will Be A Perfect Platform For Presenting Your Ico Launch. This Landing Page Comes In Great And Clean Design</p>
+            <p data-aos="fade-up">Usamos Smart Contracts y tecnologia Blockchain para ofrecerte diferentes productos y servicios listos para aumentar tus ingresos. Ahora es posible custodiar tus fondos y educarte al mismo tiempo</p>
 	      </div>
 
       	)}

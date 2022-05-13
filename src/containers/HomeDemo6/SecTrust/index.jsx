@@ -7,11 +7,11 @@ const SecTrust = ({data}) => {
 
       <div className="trust-section section-padding-100-70">
         <SectionHeading
-          title="ICO Rating"
-          text="We are trusted"
+          title="Potencializa tus resultados"
+          text="Nuestros componentes"
         />
         <div className="container">
-          <div className="row">
+          <div className="row" style={{ justifyContent:'center', alignItems:'center', justifyContent:'center'}}>
             {data && data.map((item , key) => (
               <TrustItem
                 key={key}

@@ -37,26 +37,12 @@ export const SecTrustContent = [
     },
     {
         img:HomeDemo6Platforms2,
-        value:8.9,
         CheckIcon:false
     },
     {
         img:HomeDemo6Platforms3,
-        CheckIcon:true
-    },
-    {
-        img:HomeDemo6Platforms4,
-        CheckIcon:true
-    },
-    {
-        img:HomeDemo6Platforms5,
-        value:7.4,
         CheckIcon:false
-    },
-    {
-        img:HomeDemo6Platforms6,
-        CheckIcon:true
-    },
+    }
 ]
 
 export const TokenFeaturesTop = [

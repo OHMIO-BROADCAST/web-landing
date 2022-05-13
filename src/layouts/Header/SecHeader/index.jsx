@@ -15,20 +15,24 @@ const SecHeader = ({Logo , dropdownItem , MenuInfo}) => {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                   {dropdownItem && dropdownItem.map((item , key) => (
                       <NavLink key={key} className="dropdown-item" to={item.path}>{item.nameLink}</NavLink>
                   ))}
                 </div>
-              </li>
+              </li> */}
               {MenuInfo && MenuInfo.map((item , key) => (
                 <li className="nav-item" key={key}>
                   <a className="nav-link" href={item.path}>{item.nameLink}</a>
                 </li>
               ))}
-              <li className="lh-55px"><a href="#" className="btn login-btn ml-50">Contact Us</a></li>
+              <li className="lh-55px">
+                <a  href="https://main.d32qe2nigltets.amplifyapp.com/" target="_self" className="btn login-btn ml-50">
+                  App
+                </a>
+              </li>
             </ul>
           </div>
         </div>

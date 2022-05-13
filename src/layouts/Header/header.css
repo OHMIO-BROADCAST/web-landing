@@ -47,7 +47,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
   }
 }
 .navbar-white .navbar-brand:hover{color:#fff}
-.navbar-dark .navbar-brand:hover{color:#333}
+.navbar-dark .navbar-brand:hover{color:#fed136}
 
 /* mobile view */
 @media (max-width:500px)
@@ -69,7 +69,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .navbar-dark .navbar-toggler,
 .navbar-white .navbar-toggler,
 .navbar-cyan .navbar-toggler{
-    background: #086bfe ;
+    background: #fed136 ;
     border-color: #333
 }
 .navbar-white .navbar-toggler-icon{
@@ -83,7 +83,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     }
     .navbar-collapse .navbar-nav .nav-item .nav-link{
         padding: 5px 12px;
-        color: #333
+        color: #fff
     }
     .navbar-expand-lg.navbar-dark {background: rgb(39,11,76);}
     .navbar-collapse{
@@ -177,13 +177,16 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 
 }
 .navbar-dark .navbar-toggler,
-.navbar-white .navbar-toggler,
+.navbar-white .navbar-toggler{
+    background: #fed136 ;
+    border-color: rgb(39,12,76)
+}
 .navbar-cyan .navbar-toggler{
     background: #086bfe ;
-    border-color: #fed136
+    border-color: #fed136;
 }
 .navbar-white .navbar-toggler-icon{
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(39,12,76)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
 }
 @media(max-width: 992px){
     .shrink{animation:none;}
@@ -207,7 +210,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 }
 
 .navbar-dark .navbar-brand,
-.navbar-dark .navbar-nav .nav-item .nav-link{color: #333}
+.navbar-dark .navbar-nav .nav-item .nav-link{color: #fff}
 
 .navbar-cyan .navbar-brand,
 .navbar-cyan .navbar-nav .nav-item .nav-link{color: #04d0ff}
