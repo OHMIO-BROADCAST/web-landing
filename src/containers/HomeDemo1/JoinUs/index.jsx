@@ -12,8 +12,8 @@ const OurJoinUs = ({OurJoinUsFirst , OurJoinUsSecond}) => {
     <section className="join-us section-padding-0-100 clearfix" id="services">
       <div className="container">
         <SectionHeading
-          title="Our Services"
-          text="What we speciaized in"
+          title="Nuestros servicios en Educación"
+          text="Nos especializamos"
         />
         <div className="row dark-row pt-60">
           {OurJoinUsFirst && OurJoinUsFirst.map((item , key) => (
@@ -24,6 +24,7 @@ const OurJoinUs = ({OurJoinUsFirst , OurJoinUsSecond}) => {
               ClassSteps={item.ClassSteps}
               Steps={item.Steps}
               title={item.title}
+              texto={item.texto}
             />
           ))}
           <div className="col-lg-4 hidden-md hidden-sm hidden-xs text-center">
@@ -31,9 +32,9 @@ const OurJoinUs = ({OurJoinUsFirst , OurJoinUsSecond}) => {
           </div>
           <div className="col-lg-4 text-center hidden-md hidden-sm hidden-xs">
             <div className="dream-dots justify-content-center fadeInUp" data-aos="fade-up" data-aos-delay="200">
-              <span>Join us</span>
+              <span>#TrustInPeople</span>
             </div>
-            <h2 className="fadeInUp" data-aos="fade-up" data-aos-delay="300">Contribution Cycle</h2>
+            <h2 className="fadeInUp" data-aos="fade-up" data-aos-delay="300">Educación Especializada</h2>
           </div>
           <div className="col-lg-4 hidden-md hidden-sm hidden-xs text-center">
             <img draggable="false" src={HomeDemo1JoinBottom} className="arrow-img" alt="" />
@@ -45,6 +46,7 @@ const OurJoinUs = ({OurJoinUsFirst , OurJoinUsSecond}) => {
               ClassDown={item.ClassDown}
               ClassSteps={item.ClassSteps}
               Steps={item.Steps}
+              texto={item.texto}
               title={item.title}
             />
           ))}

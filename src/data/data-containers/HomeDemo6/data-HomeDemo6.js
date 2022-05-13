@@ -33,7 +33,7 @@ import {
 export const SecTrustContent = [
     {
         img:HomeDemo6Platforms1,
-        value:'Robots HFT',
+        value:'Sistemas HFT',
     },
     {
         img:HomeDemo6Platforms2,

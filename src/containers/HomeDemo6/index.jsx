@@ -8,6 +8,9 @@ import {
         SmartContractinfo
        } from '../../data/data-containers/HomeDemo6/data-HomeDemo6.js';
 
+       import OurJoinUsFirst from '../../data/data-containers/HomeDemo1/data-OurJoinUsFirst.json';
+       import OurJoinUsSecond from '../../data/data-containers/HomeDemo1/data-OurJoinUsSecond.json';
+
 import PlatformIco from '../../data/data-containers/HomeDemo6/data-PlatformIco.json';
 
 import SecPricesInfo from '../../data/data-containers/HomeDemo5/data-SecPricesInfo.json';
@@ -43,8 +46,9 @@ import OurBlog from '../../components/OurBlog'
 
 import SecTrust from './SecTrust'
 import OurPlatform from './OurPlatform'
-import OurServices from "../HomeDemo5/OurServices";
-import { Services } from "../../data/data-containers/HomeDemo5/data-HomeDemo5";
+import OurServices from "../HomeDemo1/OurServices";
+import { Services } from "../../data/data-containers/HomeDemo1/data-HomeDemo1";
+import OurJoinUs from "../HomeDemo1/JoinUs";
 
 
 
@@ -72,12 +76,15 @@ const HomeDemo6Container = () => {
         id="services"
           />
         <div className="clearfix" />
-        {/* <OurServices data={Services} />
-        <div className="clearfix" /> */}
+        <OurJoinUs
+          OurJoinUsFirst={OurJoinUsFirst}
+          OurJoinUsSecond={OurJoinUsSecond}
+        />        <div className="clearfix" /> 
 
         <AboutOther
             ClassTitle="gradient-text"
         />
+
         <OurPlatform data={PlatformIco} />
         <SecPrices
             ClassSec="features section-padding-0-100"

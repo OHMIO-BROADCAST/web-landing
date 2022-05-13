@@ -1,25 +1,20 @@
 [
 
     {
-        "ClassTop":"col-12 col-md-6 col-lg-4 mt-30",
+        "ClassTop":"col-12 col-md-6 col-lg-6 mt-30",
         "ClassDown":"contribution-c-wapper has-arrow-left-lg has-arrow-bottom-md has-arrow-down-sm",
         "ClassSteps":"gradient-t green",
-        "Steps":6,
-        "title":"Creative Chart Modules"
-    },
-    {
-        "ClassTop":"col-12 col-md-6 col-lg-4 mt-30",
-        "ClassDown":"contribution-c-wapper has-arrow-left-lg has-arrow-left-md has-arrow-down-sm",
-        "ClassSteps":"gradient-t green",
-        "Steps":5,
-        "title":"Adaptive Social Assistant"
-    },
-    {
-        "ClassTop":"col-12 col-md-6 col-lg-4 mt-30",
-        "ClassDown":"contribution-c-wapper ",
-        "ClassSteps":"gradient-t pink",
         "Steps":4,
-        "title":"Ecommerce Embedded"
+        "title":"Diplomado en Inteligencia Financiera y Emocional",
+        "texto":"Descubirás como eliminar los malos habitos y aplicar las mejores prácticas para transformar tus finanzas y cambiar tu futuro financiero."
+    },
+    {
+        "ClassTop":"col-12 col-md-6 col-lg-6 mt-30",
+        "ClassDown":"contribution-c-wapper  has-arrow-left-md has-arrow-down-sm",
+        "ClassSteps":"gradient-t green",
+        "Steps":3,
+        "title":"NFTs",
+        "texto":"Podrás desarrollar y alojar objetos unicos en la Blockchain, aprendiendo sobre los diferentes casos de uso, incluyendo al arte digital."
     }
 
 ]
