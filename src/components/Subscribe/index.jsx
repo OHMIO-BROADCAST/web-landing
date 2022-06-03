@@ -9,7 +9,7 @@ const Subscribe = () => {
               <div className="subscribe-wrapper">
                 <div className="section-heading text-center">
                   <h2 data-aos="fade-up" data-aos-delay="300">No te pierdas ninguna actualización!</h2>
-                  <p data-aos="fade-up" data-aos-delay="400">También hacemos Airdrops y recompensas sobre nuestros usuarios. Consulta nuestro <a style={{textDecoration:"underline"}} data-aos="fade-up" data-aos-delay="400">Centro de Recompensas</a>.  </p>
+                  {/* <p data-aos="fade-up" data-aos-delay="400">También hacemos Airdrops y recompensas sobre nuestros usuarios. Consulta nuestro <a style={{textDecoration:"underline"}} data-aos="fade-up" data-aos-delay="400">Centro de Recompensas</a>.  </p> */}
 
             
                 </div>

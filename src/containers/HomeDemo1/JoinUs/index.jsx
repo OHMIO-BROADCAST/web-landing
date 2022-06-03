@@ -12,8 +12,7 @@ const OurJoinUs = ({OurJoinUsFirst , OurJoinUsSecond}) => {
     <section className="join-us section-padding-0-100 clearfix" id="services">
       <div className="container">
         <SectionHeading
-          title="Nuestros servicios en Educación"
-          text="Nos especializamos"
+          text="Nuestros servicios en Educación"
         />
         <div className="row dark-row pt-60">
           {OurJoinUsFirst && OurJoinUsFirst.map((item , key) => (

@@ -1,7 +1,5 @@
 [
-	{"IcoName":"fa fa-facebook"},
-	{"IcoName":"fa fa-twitter"},
-	{"IcoName":"fa fa-google-plus"},
-	{"IcoName":"fa fa-instagram"},
-	{"IcoName":"fa fa-linkedin"}
+	{"IcoName":"fa fa-facebook", "link":"https://www.facebook.com/tipstrustpeople"},
+	{"IcoName":"fa fa-twitter","link":"https://www.twitter.com/tipstrustpeople"},
+	{"IcoName":"fa fa-instagram","link":"https://www.instagram.com/tipstrustpeople"}
 ]

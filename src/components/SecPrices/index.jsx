@@ -9,8 +9,8 @@ const SecPrices = ({ClassSec="features section-padding-0-70" , data , ClassSpanT
         <div className="container">
 
           <SectionHeading
-            title="Precios Robots HFT"
-            text="Our Token Prices"
+            title="Precio del sistema HFT"
+            text="18 meses"
             ClassSpanTitle={ClassSpanTitle}
           />          
           <div className="row align-items-center" style={{display:'flex', justifyContent:'center', alignItems:'center'}}>

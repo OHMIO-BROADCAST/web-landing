@@ -50,6 +50,7 @@ import OurServices from "../HomeDemo1/OurServices";
 import { Services } from "../../data/data-containers/HomeDemo1/data-HomeDemo1";
 import OurJoinUs from "../HomeDemo1/JoinUs";
 
+//import ImageHeroPrueba from '../../assets/img/pruebas/Image.jpeg'
 
 
 const HomeDemo6Container = () => {
@@ -65,7 +66,7 @@ const HomeDemo6Container = () => {
           ClassSec="hero-section moving section-padding"
           ClassDiv="col-12 col-lg-6 col-md-12"
           specialHead='"La gente de exito no va detrás del dinero, sino detrás de un sueño"'
-          title="Sistemas de trading en alta frecuencia (HFT)"
+          title="High Frequency Trading"
           link1="Ver más"
           link2="App"
           img={HomeDemo6About1}

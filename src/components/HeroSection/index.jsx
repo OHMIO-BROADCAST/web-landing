@@ -32,8 +32,8 @@ const SecHeroSection = ({
                 </div>
                 <h1>{title}</h1>
                 <p className="w-text fadeInUp" data-wow-delay="0.3s">Nuestro software está diseñado para hacer trading de forma automática en FOREX, que es la conversión de una divisa a otra. Todo nuestro sistema se encuentra desarrollado sobre Blockchain.</p>
-                <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s">
-                  <a href="#" className="btn more-btn mr-3">{link1}</a>
+                <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s" style={{display:'flex', justifyContent:'center'}}>
+                  {/* <a href="#" className="btn more-btn mr-3">{link1}</a> */}
                   <a href="https://main.d32qe2nigltets.amplifyapp.com/" target="_self" className="btn more-btn-app">{link2}</a>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const SecHeroSection = ({
               <div className="col-lg-6">
                 {HomeDemo1Or4Or5Or6 && (
                   <div className="illusto-2">
-                    <img draggable="false" src={img} alt="" />
+                    <img draggable="false" src={img} alt=""/>
                   </div>
                 )}
               </div>

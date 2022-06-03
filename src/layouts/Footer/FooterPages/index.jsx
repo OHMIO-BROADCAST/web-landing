@@ -101,7 +101,7 @@ const FooterPages = ({ClassSpanTitle=""}) => {
                     </div>
                     <div className="footer-social-info fadeInUp" data-wow-delay="0.4s">
                       {IcoName && IcoName.map((item , key) => (
-                          <a key={key} href="#"><i className={item.IcoName} aria-hidden="true" /></a>    
+                          <a key={key} href={item.link} target="_blank"><i className={item.IcoName} aria-hidden="true" /></a>    
                       ))}
                     </div>
                   </div>

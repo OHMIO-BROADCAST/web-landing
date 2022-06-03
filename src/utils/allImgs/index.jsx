@@ -9,6 +9,7 @@ import HomePageDemo5 from "../../assets/img/demos/demo-5.png"
 import HomePageDemo6 from "../../assets/img/demos/demo-6.png"
 
 import HomeDemo1Platform1 from "../../assets/img/core-img/platform1.png"
+
 import HomeDemo1About1 from "../../assets/img/core-img/about-1.png"
 import HomeDemo1JoinBottom from "../../assets/img/svg/join-bottom.svg"
 
@@ -72,6 +73,8 @@ import HomeDemo2Feature1 from "../../assets/img/core-img/feature-1.png"
 import HomeDemo2SmallCar from "../../assets/img/core-img/small-car.png"
 
 import HomeDemo2Platform1 from "../../assets/img/core-img/platform1.png"
+
+// import HomeDemo2Platform1 from "../../assets/img/core-img/platform1.png"
 import HomeDemo2About1 from "../../assets/img/core-img/about-1.png"
 import HomeDemo2JoinBottom from "../../assets/img/svg/join-bottom.svg"
 
