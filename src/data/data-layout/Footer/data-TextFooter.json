@@ -2,6 +2,7 @@
 	{
 		"text1":"Acuerdo de uso del software | FOREX",
 		"text3":"Pólitica de Privacidad",
+		"link3":"https://tips.freshdesk.com",
 		"text4":"Descargos de Responsabilidad",
         "classBlock":"col-12 col-lg-3 col-md-6",
         "classInfo":"contact_info mt-x text-center fadeInUp"
@@ -9,6 +10,7 @@
 	{
 		"title":"CONTACTO",
 		"text3":"Centro de Soporte",
+		"link3":"https://tips.freshdesk.com",
 		"text4":"develop@tips.digital",
         "classBlock":"col-12 col-lg-3 col-md-6",
         "classInfo":"contact_info mt-s text-center fadeInUp",
