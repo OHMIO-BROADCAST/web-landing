@@ -38,11 +38,8 @@ const FooterHome = () => {
                 <div className="contact_info_area d-sm-flex justify-content-between">
                   <div className={item.classInfo} data-wow-delay="0.3s">
                     <h5>{item.title}</h5>
-                    <a href><p>{item.text1}</p></a>
-                    <a href><p>{item.text2}</p></a>
-                    <a href><p>{item.text3}</p></a>
+                    <a href="https://tips.freshdesk.com" target="_blank"><p>{item.text3}</p></a>
                     <a href><p>{item.text4}</p></a>
-                    {item.text5 && <a href><p>{item.text5}</p></a>}
                   </div>
                 </div>
               </div>

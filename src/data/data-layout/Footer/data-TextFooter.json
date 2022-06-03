@@ -1,29 +1,15 @@
 [
 	{
-		"text1":"Acuerdo de Anunciante",
-		"text2":"Póliza de Aceptancia de Uso",
-		"text3":"Póliza de Privacidad",
-		"text4":"Privacidad Tecnologica",
-		"text5":"Acuerdos de Desarrollo",
+		"text1":"Acuerdo de uso del software | FOREX",
+		"text3":"Pólitica de Privacidad",
+		"text4":"Descargos de Responsabilidad",
         "classBlock":"col-12 col-lg-3 col-md-6",
         "classInfo":"contact_info mt-x text-center fadeInUp"
 	},
 	{
-		"title":"RECURSOS",
-		"text1":"Advertisers",
-		"text2":"Developers",
-		"text3":"Resources",
-		"text4":"Company",
-		"text5":"Connect",
-        "classBlock":"col-12 col-lg-2 col-md-6",
-        "classInfo":"contact_info mt-s text-center fadeInUp"
-	},
-	{
-		"title":"CONTACT US",
-		"text1":"Mailing Address:xx00 E. Union Ave",
-		"text2":"Suite 1100. Denver, CO 80237",
-		"text3":"+999 90932 627",
-		"text4":"support@yourdomain.com",
+		"title":"CONTACTO",
+		"text3":"Centro de Soporte",
+		"text4":"develop@tips.digital",
         "classBlock":"col-12 col-lg-3 col-md-6",
         "classInfo":"contact_info mt-s text-center fadeInUp",
 		"text5":false
