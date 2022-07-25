@@ -15,7 +15,7 @@ const AboutOther = ({ClassTitle="gradient-text blue"}) => {
                 <span className={ClassTitle}>Plataforma de Trading Descentralizada</span>
               </div>
               <h4 className="fadeInUp" data-aos="fade-up" data-aos-delay="200">Conecta la Blockchain con el mundo real y comienza a hacer trading también en CRYPTO</h4>
-              <p className="fadeInUp" data-aos="fade-up" data-aos-delay="300">Es posible hacer Swaps o intercambios entre diferentes tokens, compra y vende en segundos gracias al ecosistema TIPS.</p>
+              <p className="fadeInUp" data-aos="fade-up" data-aos-delay="300">Es posible hacer Swaps o intercambios entre diferentes tokens, compra y vende en segundos gracias al ecosistema OHMIO.</p>
               <a className="btn more-btn mt-30" href="#">Read More</a>
             </div>
           </div>

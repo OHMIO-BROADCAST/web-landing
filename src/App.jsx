@@ -43,10 +43,10 @@ const App = () => {
         </Helmet>
   			<Switch>
           {/* <Route path="/" exact component={Home} /> */}
-          <Route path="/" exact component={HomeDemo6} />
+          {/* <Route path="/" exact component={HomeDemo6} /> */}
   				<Route path="/index-demo-1" component={HomeDemo1} />
           <Route path="/index-demo-2" component={HomeDemo2} />
-          <Route path="/index-demo-3" component={HomeDemo3} />
+          <Route path="/" component={HomeDemo3} />
           <Route path="/index-demo-4" component={HomeDemo4} />
           <Route path="/index-demo-5" component={HomeDemo5} />
           <Route path="/index-demo-6" component={HomeDemo6} />

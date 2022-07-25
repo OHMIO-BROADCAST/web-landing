@@ -13,9 +13,9 @@ const OurPlatform = ({data}) => {
         <div className="container">
 
           <SectionHeading
-            title="Prueba TIPS"
+            title="Prueba OHMIO"
             text="Nuestra Plataforma"
-            description="TIPS utiliza Blockchain para llevar a cabo todo el aspecto de compra y recompensas del sistema de Inteligencia Artificial de trading de alta frecuencia (HFT)"
+            description="OHMIO utiliza Blockchain para llevar a cabo todo el aspecto de compra y recompensas del sistema de Inteligencia Artificial de trading de alta frecuencia (HFT)"
           />
 
           <div className="row align-items-center">
