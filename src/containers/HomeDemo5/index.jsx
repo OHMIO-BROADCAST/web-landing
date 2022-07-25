@@ -55,7 +55,7 @@ const HomeDemo4Container = () => {
 
     return (
       <div>
-        <Header Title="Home Template5" />
+        <Header Title="OHMIO | Broadcast Industry Token" />
         <SecHeroSection
           ClassSec="hero-section moving-2 section-padding"
           ClassDiv="col-12 col-lg-6 col-md-12"
