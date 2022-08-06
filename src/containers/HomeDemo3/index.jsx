@@ -59,9 +59,9 @@ const HomeDemo3Container = () => {
           ClassSec="hero-section de-3 section-padding"
           ClassDiv="col-12 col-lg-5 col-md-12"
           specialHead="Creative landing page template"
-          title="Decenteralized Crypto Trading Platform"
+          title="Decentralized Platform"
           link1="Whitepaper"
-          link2="Buy Token"
+          link2="Learn more"
           HomeDemo1Or4Or5Or6={false}
         />
         <div className="clearfix" />

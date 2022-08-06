@@ -60,7 +60,7 @@ const HomeDemo4Container = () => {
           ClassSec="hero-section moving-2 section-padding"
           ClassDiv="col-12 col-lg-6 col-md-12"
           specialHead="Creative landing page template"
-          title="Decenteralized ICO and Crypto Trading Platform"
+          title="Decentralized ICO and Crypto Trading Platform"
           link1="Whitepaper"
           link2="Buy Token"
           img={HomeDemo5HeroImg}

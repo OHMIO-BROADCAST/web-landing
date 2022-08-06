@@ -63,7 +63,7 @@ const HomeDemo1Container = () => {
           ClassSec="hero-section moving section-padding"
           ClassDiv="col-12 col-lg-5 col-md-12"
           specialHead="Creative landing page template"
-          title="Decenteralized Crypto Trading Platform"
+          title="Descentralized Crypto Trading Platform"
           link1="Whitepaper"
           link2="Buy Token"
           img={HomeDemo1Platform1}
@@ -71,7 +71,7 @@ const HomeDemo1Container = () => {
         <div className="clearfix" />
         <SecAbout
           imgDwon={false}
-          title="Decentralized Trading Platform"
+          title="Descentralized Trading Platform"
           text="Conecta la Blockchain con el mundo real y comienza a hacer trading en FOREX."
           img={HomeDemo1About1}
         />
