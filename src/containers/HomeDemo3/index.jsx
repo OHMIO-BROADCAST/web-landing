@@ -58,8 +58,8 @@ const HomeDemo3Container = () => {
         <SecHeroSection
           ClassSec="hero-section de-3 section-padding"
           ClassDiv="col-12 col-lg-5 col-md-12"
-          specialHead="Web 3.0 + Internet of Things (IoT)"
-          title="Empowering Crypto Broadcast Ecosystem"
+          specialHead="Web 3.0 + Internet of Things (IoT) "
+          title="We are a disruptive community dedicated to the mastermind architecture of the universe."
           link1="Whitepaper"
           link2="Learn more"
           HomeDemo1Or4Or5Or6={false}
