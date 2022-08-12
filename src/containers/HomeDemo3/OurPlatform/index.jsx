@@ -12,8 +12,8 @@ const OurPlatform = ({data , ClassSpanTitle}) => {
       <section className="features section-padding-100">
         <div className="container">
           <SectionHeading
-            title="Try our Patform"
-            text="Our Trading Platform"
+            title="We present"
+            text="OHMIO BOX"
             ClassSpanTitle={ClassSpanTitle}
           />
           <div className="row align-items-center">
@@ -26,8 +26,8 @@ const OurPlatform = ({data , ClassSpanTitle}) => {
             <div className="service-img-wrapper how col-lg-5 col-md-9 col-sm-12 mt-s no-padding-right">
               <div className="features-list v2">
                 <div className="who-we-contant">
-                  <h4 className="w-text ">Powerful platform.</h4>
-                  <p className="w-text ">We are dedicated to providing professional service with the highest degree of honesty and integrity.</p>
+                  <h4 className="w-text ">The OHMIO Box</h4>
+                  <p className="w-text ">Is a dedicated piece of hardware that provides a node in order to interact with OHMIO Network from Broadcast Stations.</p>
                 </div>
                 <ul className="list-marked">
                   {data && data.map((item , key) => (

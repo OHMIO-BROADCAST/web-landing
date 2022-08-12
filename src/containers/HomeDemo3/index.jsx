@@ -59,7 +59,7 @@ const HomeDemo3Container = () => {
           ClassSec="hero-section de-3 section-padding"
           ClassDiv="col-12 col-lg-5 col-md-12"
           specialHead="Web 3.0 + Internet of Things (IoT) "
-          title="We are a disruptive community dedicated to the mastermind architecture of the universe."
+          title="We are a disruptive broadcast ecosystem"
           link1="Whitepaper"
           link2="Learn more"
           HomeDemo1Or4Or5Or6={false}
@@ -71,7 +71,7 @@ const HomeDemo3Container = () => {
         />
         <SecAbout
           imgDwon={true}
-          title=" Best Trading Experience "
+          title="Best Trading Experience"
           text=" Trade crypto currency and refer new members to get bounes."
           img={HomeDemo3About1}
         />
