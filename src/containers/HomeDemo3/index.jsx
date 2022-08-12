@@ -58,8 +58,8 @@ const HomeDemo3Container = () => {
         <SecHeroSection
           ClassSec="hero-section de-3 section-padding"
           ClassDiv="col-12 col-lg-5 col-md-12"
-          specialHead="Creative landing page template"
-          title="Decentralized Platform"
+          specialHead="Web 3.0 + Internet of Things (IoT)"
+          title="Empowering Crypto Broadcast Ecosystem"
           link1="Whitepaper"
           link2="Learn more"
           HomeDemo1Or4Or5Or6={false}

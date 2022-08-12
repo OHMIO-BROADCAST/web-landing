@@ -23,6 +23,7 @@ const SecHeroSection = ({
   return (
     <section className={ClassSec} id="home">
       <div className="hero-section-content">
+
         <div className="container ">
           <div className="row align-items-center">
             <div className={ClassDiv}>
@@ -31,9 +32,9 @@ const SecHeroSection = ({
                   <h3 className="special-head dark">{specialHead}</h3>
                 </div>
                 <h1>{title}</h1>
-                <p className="w-text fadeInUp" data-wow-delay="0.3s">Nuestro software está diseñado para hacer trading de forma automática en FOREX, que es la conversión de una divisa a otra. Todo nuestro sistema se encuentra desarrollado sobre Blockchain.</p>
+                <p className="w-text fadeInUp" data-wow-delay="0.3s">We present OHMIO as a solution for Radio difution companies, it uses Blockchain as platform to monitor power consumption and efficiency on transmission stations, and rewards community members on Broadcast industry.</p>
                 <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s" style={{display:'flex', justifyContent:'center'}}>
-                  {/* <a href="#" className="btn more-btn mr-3">{link1}</a> */}
+                  <a href="#" className="btn more-btn mr-3">{link1}</a>
                   <a href="https://app.ohmiobroadcast.io" target="_self" className="btn more-btn-app">{link2}</a>
                 </div>
               </div>
