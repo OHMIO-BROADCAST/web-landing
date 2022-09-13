@@ -30,7 +30,7 @@ const SecHeader = ({Logo , dropdownItem , MenuInfo}) => {
               ))}
               <li className="lh-55px">
                 <a  href="https://app.ohmiobroadcast.io" target="_self" className="btn login-btn ml-50">
-                  App
+                  Launch DApp
                 </a>
               </li>
             </ul>
