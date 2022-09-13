@@ -1,4 +1,7 @@
 import {HomeDemo2Feature1 , HomeDemo2SmallCar} from '../../utils/allImgs'
+import PolygonLogo from '../../assets/img/core-img/polygonlogo.png'
+import AntenaLogo from '../../assets/img/core-img/antenna.png'
+
 
 const FuelFeatures = () => {
 
@@ -15,17 +18,26 @@ const FuelFeatures = () => {
             <div className="col-12 col-lg-6 offset-lg-0">
               <div className="who-we-contant">
                 <div className="dream-dots text-left">
-                  <span className="gradient-text blue">Crypto Trading</span>
+                  <span className="gradient-text blue">Be part of this revolution</span>
                 </div>
-                <h4 className="fadeInUp" data-wow-delay="0.3s">Ride you want, The best way to get wherever you are going</h4>
-                <p className="fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nunc scelerisque in.</p>
+                <h4 className="fadeInUp" data-wow-delay="0.3s">Get your OHMIO Box and start to Earn!</h4>
+                <p className="fadeInUp" data-wow-delay="0.4s">With this device you will be able to generate rewards in OHMIO coins, the token with which you can carry out transactions within our ecosystem.</p>
                 <div className="services-block-four align-items-center">
                   <div className="inner-box">
                     <div className="icon-img-box">
-                      <img draggable="false" src={HomeDemo2SmallCar} alt="" width={140} />
+                      <img draggable="false" src={AntenaLogo} alt="" width={140} />
                     </div>
-                    <h3><a href="#">great customer experience</a></h3>
-                    <div className="text">Lorem ipsum dolor sit amet, adipisicing elit. Laudantium modi assumenda beatae.</div>
+                    <h3><a href="#">Radio/Tv Station</a></h3>
+                    <div className="text">Run our nodes in your station and generate a new income.</div>
+                  </div>
+                </div>
+                <div className="services-block-four align-items-center">
+                  <div className="inner-box">
+                    <div className="icon-img-box" style={{justifyContent:'center', alignItems:'center'}}>
+                      <img draggable="false" src={PolygonLogo} alt="" width={110} style={{paddingLeft:'2rem'}}/>
+                    </div>
+                    <h3><a href="#">Polygon Hosted</a></h3>
+                    <div className="text">OHMIO is currently on Polygon Mainnet Network.</div>
                   </div>
                 </div>
               </div>

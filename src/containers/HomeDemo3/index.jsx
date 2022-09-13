@@ -69,12 +69,12 @@ const HomeDemo3Container = () => {
             data={OurPatformInfo}
             ClassSpanTitle="gradient-text blue"
         />
-        <SecAbout
+   {/*      <SecAbout
           imgDwon={true}
           title="Best Trading Experience"
           text=" Trade crypto currency and refer new members to get bounes."
           img={HomeDemo3About1}
-        />
+        /> */}
         <FuelFeatures />
         <TokenFeatures
             TokenFeaturesTop={TokenFeaturesTop}
