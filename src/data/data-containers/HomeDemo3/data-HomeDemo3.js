@@ -26,55 +26,61 @@ import {
 export const TokenFeaturesTop = [
     {
         img:HomeDemo3FeaturesF1,
-        title:"Delivery Reports"
+        title:"Transmission Reports",
+        message:"Accurate in historic data. You can ensure your processes."
     },
     {
         img:HomeDemo3FeaturesF2,
-        title:"Branded Sender ID"
+        title:"Security and transparency",
+        message:"All communication is backed by Blockchain and encrypted technologies End to End (E2E)."
     }
 ]
 
 export const TokenFeaturesMed = [
     {
         img:HomeDemo3FeaturesF3,
-        title:"Marketing Campigns"
+        title:"efficiency and agility",
+        message:"This device allows you to transmit in more agile and fast ways"
     },
     {
         img:HomeDemo3FeaturesF4,
-        title:"professional Routing"
+        title:"web 3.0 ecosystem",
+        message:"OHMIO has diverce products and a clear roadmap to ensure the development and"
     },
 ]
 export const TokenFeaturesDown = [
     {
         img:HomeDemo3FeaturesF5,
-        title:"Traking API"
+        title:"advance technology",
+        message:"You can monitor your transmission station in real time."
     },
     {
         img:HomeDemo3FeaturesF6,
-        title:"Two-Way Messaging"
+        title:"Scalability",
+        message:"The Network is prepared to have high data traffic due to streaming technology."
     }
 ]
 
 export const SmartContractinfo = [
     {
         img:HomeDemo3FeaturesS1,
-        title:"Cycles and schedules"
-
+        title:"Verified TimeStamp triggers",
+        message:"The token is backed by smart contracts to trigger all descentralized actions."
     },
     {
         img:HomeDemo3FeaturesS2,
-        title:"Advanced application interface (API)"
-
+        title:"Advanced application interface (API)",
+        message:"The Centralized API has been developed with the last technologies."
     },
     {
         img:HomeDemo3FeaturesS3,
-        title:"Software development kit (SDK)"
-
+        title:"Software development kit (SDK)",
+        message:"We are planning to provide tools to develop around the OHMIO Ecosystem."
     },
     {
         img:HomeDemo3FeaturesS4,
-        title:"Java virtual machine (JVM)"
-
+        title:"Java virtual machine (JVM)",
+        message:"Using Polygon, an Ethereum Virtual Machine Blockchain, we are able to send and receive fast transactions."
     },
 ]
 

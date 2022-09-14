@@ -9,7 +9,7 @@ const TokenFeatures = ({TokenFeaturesTop , TokenFeaturesMed , TokenFeaturesDown 
       <section className="about-us-area features section-padding-100-70 clearfix">
         <div className="container">
           <SectionHeading
-            title="Token Features"
+            title="Token and Product Features"
             text="Why choose us"
             ClassSpanTitle={ClassSpanTitle}
           />
@@ -20,6 +20,7 @@ const TokenFeatures = ({TokenFeaturesTop , TokenFeaturesMed , TokenFeaturesDown 
                     key={key}
                     img={item.img}
                     title={item.title}
+                    message={item.message}
                   />
               ))}
             </div>
@@ -29,6 +30,7 @@ const TokenFeatures = ({TokenFeaturesTop , TokenFeaturesMed , TokenFeaturesDown 
                     key={key}
                     img={item.img}
                     title={item.title}
+                    message={item.message}
                   />
               ))}
             </div>
@@ -38,6 +40,7 @@ const TokenFeatures = ({TokenFeaturesTop , TokenFeaturesMed , TokenFeaturesDown 
                     key={key}
                     img={item.img}
                     title={item.title}
+                    message={item.message}
                   />
               ))}
             </div>

@@ -1,4 +1,4 @@
-const Contract = ({ img, title }) => {
+const Contract = ({ img, title,message  }) => {
 
   return (
     <div className="services-block-four v3">
@@ -7,7 +7,7 @@ const Contract = ({ img, title }) => {
           <img draggable="false" src={img} alt="" />
         </div>
         <h3><a href="#">{title}</a></h3>
-        <div className="text">Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing elit.</div>
+        <div className="text">{message}</div>
       </div>
     </div>
   );

@@ -4,8 +4,8 @@
 		"nameLink":"Home"
 	},
 	{
-		"path":"#services",
-		"nameLink":"Servicios"
+		"path":"#components",
+		"nameLink":"Components"
 	},
 	{
 		"path":"#wallet",

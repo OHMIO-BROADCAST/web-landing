@@ -15,8 +15,8 @@ const SpreadMap = ({Wwhitepaper , SectionIcon11}) => {
               <div className="dream-dots text-left">
                 <img draggable="false" src={SectionIcon11} alt="" />
               </div>
-              <h4 className="text-white">Descarga nuestra Wallet</h4>
-              <p className="text-white">Para interactuar en nuestra plataforma hace falta una cartera capaz de usar la Red de Polygon, existen muchas opciones en el mercado, nosotros te sugerimos directamente nuestra wallet custodiada multicadena. Aqui podrás centralizar tus fondos y recibir constantes beneficios.</p>
+              <h4 className="text-white">Download our Wallet</h4>
+              <p className="text-white">In order to interact with our platform you need a wallet capable of using the Polygon Network, there are many options on the market, we directly suggest our multi-chain guarded wallet. Here you can centralize your funds and receive constant benefits.</p>
               <a className="btn dream-btn mt-30" href="#">
                 Get Android
               </a>
