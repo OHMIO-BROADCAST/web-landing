@@ -61,7 +61,7 @@ const HomeDemo3Container = () => {
           specialHead="Web 3.0 + Internet of Things (IoT) "
           title="We are a disruptive broadcast ecosystem"
           link1="Whitepaper"
-          link2="Learn more"
+          link2="On The Air"
           HomeDemo1Or4Or5Or6={false}
         />
         <div className="clearfix" />

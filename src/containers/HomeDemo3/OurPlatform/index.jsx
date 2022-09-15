@@ -3,6 +3,8 @@ import {
     HomeDemo3Rings,
 } from '../../../utils/allImgs'
 
+import ohmiobox from '../../../assets/img/uhf-transmitter-rs.png'
+
 import SectionHeading from "../../../components/SectionHeading"
 
 const OurPlatform = ({data , ClassSpanTitle}) => {
@@ -19,7 +21,7 @@ const OurPlatform = ({data , ClassSpanTitle}) => {
           <div className="row align-items-center">
             <div className="service-img-wrapper col-lg-7 col-md-12 col-sm-12 mt-s">
               <div className="image-box">
-                <img draggable="false" src={HomeDemo3Platform} className="center-block img-responsive phone-img" alt="" />
+                <img draggable="false" src={ohmiobox} className="center-block img-responsive phone-img" alt="" />
                 <img draggable="false" src={HomeDemo3Rings} className="center-block img-responsive rings " alt="" />
               </div>
             </div> 
