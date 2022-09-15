@@ -4,7 +4,7 @@ const SpreadMap = ({Wwhitepaper , SectionIcon11}) => {
 
   return (
 
-    <section className="spread-map download">
+    <section className="spread-map download" id="wallet">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 col-xs-12">

@@ -11,7 +11,7 @@ import SectionHeading from "../../../components/SectionHeading"
 const OurPlatform = ({data , ClassSpanTitle}) => {
 
     return (
-      <section className="features section-padding-100">
+      <section className="features section-padding-100" id="products">
         <div className="container" >
           <SectionHeading
             title="We present"
