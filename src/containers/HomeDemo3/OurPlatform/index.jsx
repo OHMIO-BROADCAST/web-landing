@@ -10,7 +10,6 @@ import SectionHeading from "../../../components/SectionHeading"
 const OurPlatform = ({data , ClassSpanTitle}) => {
 
     return (
-
       <section className="features section-padding-100">
         <div className="container">
           <SectionHeading
