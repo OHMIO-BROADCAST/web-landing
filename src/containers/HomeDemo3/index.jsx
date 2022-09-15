@@ -93,7 +93,7 @@ const HomeDemo3Container = () => {
             data={RoadmapInfo}
             ClassSpanTitle="gradient-text blue"
         />
-        <Features2
+{/*         <Features2
             icoCounterClass="ico-counter dotted-bg mb-30"
             addOther={true}
             FeaturesOtherTop={FeaturesOtherTop}
@@ -102,7 +102,7 @@ const HomeDemo3Container = () => {
         <Faq
             data={FaqInfo}
             ClassSpanTitle="gradient-text blue"
-        />
+        /> */}
    {/*      <OurTeam
             data={OurTeamInfo}
             ClassSpanTitle="gradient-text blue"
