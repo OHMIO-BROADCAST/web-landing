@@ -35,7 +35,7 @@ const OurPlatform = ({data , ClassSpanTitle}) => {
                       <li key={key} className="text-white"><i className="fa fa-check" />{item.NameMarked}</li>
                   ))}
                 </ul>
-                <a className="btn more-btn mt-30 " href="#">Whitepaper</a>
+                <a className="btn more-btn mt-30 " href="https://ohmio.gitbook.io/" target="_blank" >Whitepaper</a>
               </div>
             </div>
           </div>
