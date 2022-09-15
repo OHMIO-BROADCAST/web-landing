@@ -68,7 +68,7 @@ const HomeDemo3Container = () => {
         <OurPlatform
             data={OurPatformInfo}
             ClassSpanTitle="gradient-text blue"
-            ref="#products"
+            href="#products"
         />
    {/*      <SecAbout
           imgDwon={true}
