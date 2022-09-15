@@ -1,3 +1,5 @@
+import ohmiofondo2 from '../../assets/img/bg-img/AMBIENTENFT2.png';
+
 const SectionHeading = ({
 	title,
 	text,
@@ -18,7 +20,8 @@ const SectionHeading = ({
 	        <p data-aos="fade-up">{text}</p>
 	      </div>
       	):(
-	      <div className="section-heading text-center">	      	
+	      <div className="section-heading text-center">	    
+			{/* <img draggable="false" src={ohmiofondo2}  style={{width:'100%', objectFit:'cover'}} alt="" /> */}
 	        <div className={ClassSpan} data-aos="fade-up">
 	            <span className={ClassSpanTitle}>{title}</span>
 	        </div>

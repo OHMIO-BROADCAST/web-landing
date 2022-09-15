@@ -4,6 +4,7 @@ import {
 } from '../../../utils/allImgs'
 
 import ohmiobox from '../../../assets/img/uhf-transmitter-rs.png'
+import ohmiofondo2 from '../../../assets/img/bg-img/AMBIENTENFT2.png';
 
 import SectionHeading from "../../../components/SectionHeading"
 
@@ -11,7 +12,7 @@ const OurPlatform = ({data , ClassSpanTitle}) => {
 
     return (
       <section className="features section-padding-100">
-        <div className="container">
+        <div className="container" >
           <SectionHeading
             title="We present"
             text="OHMIO BOX"
