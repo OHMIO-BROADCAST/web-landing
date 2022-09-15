@@ -64,11 +64,10 @@ const HomeDemo3Container = () => {
           link2="On The Air"
           HomeDemo1Or4Or5Or6={false}
         />
-        <div className="clearfix" />
+        <div className="clearfix" href="#products"/>
         <OurPlatform
             data={OurPatformInfo}
             ClassSpanTitle="gradient-text blue"
-            href="#products"
         />
    {/*      <SecAbout
           imgDwon={true}
@@ -106,7 +105,7 @@ const HomeDemo3Container = () => {
             data={FaqInfo}
             ClassSpanTitle="gradient-text blue"
         />
-        <OurTeam
+   {/*      <OurTeam
             data={OurTeamInfo}
             ClassSpanTitle="gradient-text blue"
         />
@@ -114,7 +113,7 @@ const HomeDemo3Container = () => {
         <OurBlog
             data={OurBlogInfo}
             ClassSpanTitle="gradient-text blue"
-        />
+        /> */}
         <FooterPages
             ClassSpanTitle="gradient-text blue"
         />
