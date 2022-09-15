@@ -44,8 +44,6 @@ import OurBlog from '../../components/OurBlog'
 import OurPlatform from './OurPlatform'
 import TokenFeatures from "./TokenFeatures"
 
-
-
 const HomeDemo3Container = () => {
 
     useEffect(() => {
@@ -57,7 +55,7 @@ const HomeDemo3Container = () => {
         <Header Title="OHMIO | Broadcast Industry Token" />
         <SecHeroSection
           ClassSec="hero-section de-3 section-padding"
-          ClassDiv="col-12 col-lg-5 col-md-12"
+          ClassDiv="col-12 col-lg-5 col-md-12 "
           specialHead="Web 3.0 + Internet of Things (IoT) "
           title="We are a disruptive broadcast ecosystem"
           link1="Whitepaper"
@@ -69,7 +67,7 @@ const HomeDemo3Container = () => {
             data={OurPatformInfo}
             ClassSpanTitle="gradient-text blue"
         />
-   {/*      <SecAbout
+   {/*  <SecAbout
           imgDwon={true}
           title="Best Trading Experience"
           text=" Trade crypto currency and refer new members to get bounes."

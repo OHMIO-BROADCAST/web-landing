@@ -1,3 +1,4 @@
+import BackgroundAnimation from '../Animations/Background/BackgroundAnimation.jsx';
 const SecHeroSection = ({
       ClassSec="",
       ClassDiv="",
@@ -8,7 +9,6 @@ const SecHeroSection = ({
       img="",
       HomeDemo1Or3Or4Or5Or6=true,
       HomeDemo1Or4Or5Or6=true,
-
     }) => {
 
       // AbsoImgInfo="",
@@ -22,9 +22,10 @@ const SecHeroSection = ({
 
   return (
     <section className={ClassSec} id="home">
-      <div className="hero-section-content">
 
-        <div className="container ">
+      <div className="hero-section-content">
+      {/* <canvas id="canvas" /> */}
+        <div className="container">
           <div className="row align-items-center">
             <div className={ClassDiv}>
               <div className="welcome-content">

@@ -21,12 +21,16 @@
 .hero-section.de-3{
     position: relative;
     min-height: 730px;
-    background: url(../../../assets/img/bg-img/bg-3.png) no-repeat top center;
+    background: url('../../../assets/img/bg-img/bg-3.png') no-repeat top center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+  #canvas {
+    display: block;
+    background-image: linear-gradient(to bottom, #17223b 30%, #070e20 70%);
+  }
 .hero-section.app img{
     width: 100%
 }
