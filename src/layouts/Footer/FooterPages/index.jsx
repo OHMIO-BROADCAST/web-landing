@@ -97,7 +97,7 @@ const FooterPages = ({ClassSpanTitle=""}) => {
                       <div className="footer-logo">
                         <a href="#"><img draggable="false" src={FooterLogo} alt="logo" style={{width:'9rem'}}/> </a>
                       </div>
-                      <p>Trading de alta frecuencia (HFT) usando inteligencia artificial (AI) y tecnologia Blockchain.</p>
+                      <p>Powered by Blockchain (OHMIO) is a descentralized ecosystem for broadcast industry</p>
                     </div>
                     <div className="footer-social-info fadeInUp" data-wow-delay="0.4s">
                       {IcoName && IcoName.map((item , key) => (
