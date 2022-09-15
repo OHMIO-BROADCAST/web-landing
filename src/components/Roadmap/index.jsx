@@ -6,8 +6,8 @@ const Roadmap = ({data , ClassSpanTitle}) => {
 
       <section className="roadmap section-padding-0-0" id="roadmap">
         <SectionHeading
-          title="ICO Roadmap"
-          text="Our ICO Roadmap"
+          title="Roadmap"
+          text="Our OHMIO Roadmap"
           ClassSpanTitle={ClassSpanTitle}
         />
         <div className="container">
