@@ -1,6 +1,9 @@
 import {HomeDemo2Feature1 , HomeDemo2SmallCar} from '../../utils/allImgs'
 import PolygonLogo from '../../assets/img/core-img/polygonlogo.png'
 import AntenaLogo from '../../assets/img/core-img/antenna.png'
+import MonedaLogo from '../../assets/img/icons/moneda.png'
+
+
 
 
 const FuelFeatures = () => {
@@ -20,7 +23,7 @@ const FuelFeatures = () => {
                 <div className="dream-dots text-left">
                   <span className="gradient-text blue">Be part of this revolution</span>
                 </div>
-                <h4 className="fadeInUp" data-wow-delay="0.3s">Get your OHMIO Box and start to Earn!</h4>
+                <h4 className="fadeInUp" data-wow-delay="0.3s">Get your OHMIO Box and start to Earn! <img src={MonedaLogo} style={{width:'2rem'}}></img></h4>
                 <p className="fadeInUp" data-wow-delay="0.4s">With this device you will be able to generate rewards in OHMIO coins, the token with which you can carry out transactions within our ecosystem.</p>
                 <div className="services-block-four align-items-center">
                   <div className="inner-box">

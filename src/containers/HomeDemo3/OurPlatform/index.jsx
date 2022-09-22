@@ -29,7 +29,7 @@ const OurPlatform = ({data , ClassSpanTitle}) => {
               <div className="features-list v2">
                 <div className="who-we-contant">
                   <h4 className="w-text ">The OHMIO Box</h4>
-                  <p className="w-text ">Is a dedicated piece of hardware that provides a node in order to interact with OHMIO Network from Broadcast Stations.</p>
+                  <p className="w-text ">This device is a dedicated piece of hardware that provides a node in order to interact with OHMIO Network from Broadcast Stations.</p>
                 </div>
                 <ul className="list-marked">
                   {data && data.map((item , key) => (
