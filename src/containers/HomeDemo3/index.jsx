@@ -18,6 +18,8 @@ import TokenDistributionInfo from '../../data/data-containers/HomeDemo3/data-Tok
 import RoadmapInfo from '../../data/data-containers/HomeDemo3/data-RoadmapInfo.json';
 import FaqInfo from '../../data/data-containers/HomeDemo3/data-FaqInfo.json';
 
+import './wppbtn.css'
+
 import {
         HomeDemo3Wwhitepaper,
         HomeDemo3About1
@@ -115,6 +117,9 @@ const HomeDemo3Container = () => {
         <FooterPages
             ClassSpanTitle="gradient-text blue"
         />
+<a href="https://api.whatsapp.com/send?phone=17866704647&text=Hi%21%20I%20want%20more%20info%20about%20OHMIO" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
       </div>
     );
 };

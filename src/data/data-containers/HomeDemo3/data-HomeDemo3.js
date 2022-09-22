@@ -40,12 +40,12 @@ export const TokenFeaturesMed = [
     {
         img:HomeDemo3FeaturesF3,
         title:"efficiency and agility",
-        message:"This device allows you to transmit in more agile and fast ways"
+        message:"This device allows you to transmit in more agile and fast ways."
     },
     {
         img:HomeDemo3FeaturesF4,
         title:"web 3.0 ecosystem",
-        message:"OHMIO has diverce products and a clear roadmap to ensure the development and"
+        message:"OHMIO has diverse products and a clear roadmap to ensure the development and successfull."
     },
 ]
 export const TokenFeaturesDown = [
