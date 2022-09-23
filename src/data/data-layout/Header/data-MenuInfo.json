@@ -10,5 +10,9 @@
 	{
 		"path":"#wallet",
 		"nameLink":"Wallet"
+	},
+	{
+		"path":"#roadmap",
+		"nameLink":"Roadmap"
 	}
 ]
