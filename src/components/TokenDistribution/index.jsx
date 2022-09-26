@@ -12,8 +12,8 @@ const TokenDistribution = ({data , ClassSpanTitle}) => {
       <section className="token-distribution section-padding-100-85">
         <div className="container">
           <SectionHeading
-            title="ICO Distribution"
-            text="Our ICO Distribution"
+            title="Distribution"
+            text="Our Distribution"
             ClassSpanTitle={ClassSpanTitle}
           />
 
