@@ -99,7 +99,6 @@ const HomeDemo6Container = () => {
         <SpreadMap
             Wwhitepaper={HomeDemo6Wwhitepaper}
             id="wallet"
-
         />
          <TokenDistribution
             data={TokenDistributionInfo}

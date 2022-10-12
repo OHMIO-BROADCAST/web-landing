@@ -12,7 +12,7 @@ const TokenDistribution = ({data , ClassSpanTitle}) => {
       <section className="token-distribution section-padding-100-85">
         <div className="container">
           <SectionHeading
-            title="Distribution"
+            title="Tokenomics"
             text="Our Distribution"
             ClassSpanTitle={ClassSpanTitle}
           />
@@ -26,6 +26,7 @@ const TokenDistribution = ({data , ClassSpanTitle}) => {
             </div>
             <div className="col-lg-6 col-sm-12 mt-s">
               <h2 className="text-center mb-30" data-aos="fade-up" data-aos-delay="0.3s">Token Distribution</h2>
+              <h4 className="text-center mb-30" data-aos="fade-up" data-aos-delay="0.3s">Total Supply: 7,000,000,000</h4>
               <div className="row">
                 <div className="col-sm-4">
                   <div>
@@ -37,7 +38,7 @@ const TokenDistribution = ({data , ClassSpanTitle}) => {
                       <div className="token-info" key={key}>
                         <div className={item.ClassName}>
                           <div className="token-icon">{item.Num}</div>
-                          <div className="token-descr">{item.descr}</div>
+                          <div className="token-descr m-2">{item.descr}</div>
                         </div>
                       </div>
                   ))}

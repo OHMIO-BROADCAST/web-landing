@@ -1,42 +1,27 @@
 [
     {
         "ClassName":"info-wrapper one",
-        "Num":"12",
-        "descr":"Overhead Token Distribution"
+        "Num":"41%",
+        "descr":"OHMIO DAO"
     },
     {
         "ClassName":"info-wrapper two",
-        "Num":"23",
-        "descr":"Supporting Blockchain "
+        "Num":"20%",
+        "descr":"On Air Backup"
     },
     {
         "ClassName":"info-wrapper four",
-        "Num":"08",
-        "descr":"Engineers"
+        "Num":"16%",
+        "descr":"OHMIO NFT Holders"
     },
     {
         "ClassName":"info-wrapper five",
-        "Num":"07",
-        "descr":" Paltform Operations"
+        "Num":"15%",
+        "descr":"Descentralized Oracles & Network Ecosystem"
     },
     {
         "ClassName":"info-wrapper three",
-        "Num":"05",
-        "descr":"Network Growth Marketing"
-    },
-    {
-        "ClassName":"info-wrapper six",
-        "Num":"08",
-        "descr":"Oracle Network Developers"
-    },
-    {
-        "ClassName":"info-wrapper seven",
-        "Num":"05",
-        "descr":"Engineers"
-    },
-    {
-        "ClassName":"info-wrapper eight",
-        "Num":"27",
-        "descr":" Paltform Operations"
+        "Num":"8%",
+        "descr":"Founders"
     }
 ]
