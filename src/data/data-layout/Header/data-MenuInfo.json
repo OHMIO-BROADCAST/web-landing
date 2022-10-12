@@ -14,5 +14,9 @@
 	{
 		"path":"#roadmap",
 		"nameLink":"Roadmap"
+	},
+	{
+		"path":"#support",
+		"nameLink":"Support"
 	}
 ]

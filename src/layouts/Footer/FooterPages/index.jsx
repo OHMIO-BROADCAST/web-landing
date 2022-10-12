@@ -87,7 +87,7 @@ const FooterPages = ({ClassSpanTitle=""}) => {
 
         
         {/* ##### Contact Area End ##### */}
-        <div className="footer-area bg-img" style={{backgroundImage: `url(${FooterPattern})`}}>
+        <div className="footer-area bg-img" style={{backgroundImage: `url(${FooterPattern})`}} id="support">
           <div className="footer-content-area demo">
             <div className="container">
               <div className="row ">

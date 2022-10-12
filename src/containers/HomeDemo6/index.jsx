@@ -101,10 +101,10 @@ const HomeDemo6Container = () => {
             id="wallet"
 
         />
- {/*        <TokenDistribution
+         <TokenDistribution
             data={TokenDistributionInfo}
             ClassSpanTitle="gradient-text blue"
-        /> 
+        /> {/*
         <Roadmap
             data={RoadmapInfo}
             ClassSpanTitle="gradient-text blue"
@@ -125,13 +125,15 @@ const HomeDemo6Container = () => {
             data={OurTeamInfo}
             ClassSpanTitle="gradient-text blue"
         /> */}
-        <Subscribe  />
+        <Subscribe  
+        />
         {/* <OurBlog
             data={OurBlogInfo}
             ClassSpanTitle="gradient-text blue"
         /> */}
         <FooterPages
             ClassSpanTitle="gradient-text blue"
+        
         />
       </div>
     );

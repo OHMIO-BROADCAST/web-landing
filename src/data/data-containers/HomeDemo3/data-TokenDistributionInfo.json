@@ -23,20 +23,5 @@
         "ClassName":"info-wrapper three",
         "Num":"05",
         "descr":"Network Growth Marketing"
-    },
-    {
-        "ClassName":"info-wrapper six",
-        "Num":"08",
-        "descr":"Oracle Network Developers"
-    },
-    {
-        "ClassName":"info-wrapper seven",
-        "Num":"05",
-        "descr":"Engineers"
-    },
-    {
-        "ClassName":"info-wrapper eight",
-        "Num":"27",
-        "descr":" Paltform Operations"
     }
 ]
