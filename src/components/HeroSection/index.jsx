@@ -36,7 +36,7 @@ const SecHeroSection = ({
                 <p className="w-text fadeInUp" data-wow-delay="0.3s"><text style={{textDecoration:'underline'}}>OHMIO</text> is the solution for Broadcast Industry, using Blockchain technology and Internet of things (IoT). <text style={{textDecoration:'underline'}}>OHMIOBOX</text> makes possible tokenizing the efficiency and rating of transmission stations over the world.</p>
                 <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s" style={{display:'flex', justifyContent:'center'}}>
                   <a href="https://ohmio.gitbook.io/" target="_blank" className="btn more-btn mr-3">{link1}</a>
-                  <a href="https://app.ohmiobroadcast.io/" target="_blank" className="btn more-btn-app">{link2}</a>
+                  <a href="#/" target="_blank" className="btn more-btn-app">{link2}</a>
                 </div>
               </div>
             </div>
