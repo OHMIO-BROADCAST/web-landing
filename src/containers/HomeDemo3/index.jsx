@@ -62,6 +62,7 @@ const HomeDemo3Container = () => {
           title="We are a disruptive broadcast ecosystem"
           link1="Whitepaper"
           link2="On The Air"
+          link3="Add Token to Metamask"
           HomeDemo1Or4Or5Or6={false}
         />
         <div className="clearfix" href="#products"/>

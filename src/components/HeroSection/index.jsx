@@ -1,4 +1,10 @@
+import React, {useEffect} from 'react';
 import BackgroundAnimation from '../Animations/Background/BackgroundAnimation.jsx';
+
+import { use } from '@maticnetwork/maticjs'
+import Web3ClientPlugin from '@maticnetwork/maticjs-web3';
+
+
 const SecHeroSection = ({
       ClassSec="",
       ClassDiv="",
@@ -6,6 +12,7 @@ const SecHeroSection = ({
       title="",
       link1="",
       link2="",
+      link3="",
       img="",
       HomeDemo1Or3Or4Or5Or6=true,
       HomeDemo1Or4Or5Or6=true,
@@ -19,6 +26,45 @@ const SecHeroSection = ({
       // HomeDemo4=false,
       // HomeDemo5=false,
       // HomeDemo6=false
+      const tokenAddress = '0x4d0d3976300FD6Cc5B2A722575523aEAd7185E94';
+      const tokenSymbol = 'OHMIO';
+      const tokenDecimals = 18;
+      const tokenImage = '../../assets/img/icons/moneda.png';
+
+       useEffect(() => {      
+        return () => {
+            use(Web3ClientPlugin)
+
+        }
+      }, []) 
+
+      
+      
+      async function addTokenToMetamask() {
+        try {
+          const {ethereum} =window;
+
+          const wasAdded = await ethereum.request({
+            method: 'wallet_watchAsset',
+            params: {
+              type: 'ERC20', 
+              options: {
+                address: tokenAddress, 
+                symbol: tokenSymbol, 
+                decimals: tokenDecimals, 
+                image: tokenImage, 
+              },
+            },
+          });
+          if (wasAdded) {
+            console.log('Thanks for your interest!');
+          } else {
+            console.log('HelloWorld Coin has not been added');
+          }
+        } catch (error) {
+          console.log(error);
+        }
+        }
 
   return (
     <section className={ClassSec} id="home">
@@ -38,6 +84,10 @@ const SecHeroSection = ({
                   <a href="https://ohmio.gitbook.io/" target="_blank" className="btn more-btn mr-3">{link1}</a>
                   <a href="https://app.ohmiobroadcast.io/" target="_blank" className="btn more-btn-app">{link2}</a>
                 </div>
+                <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s" style={{display:'flex', justifyContent:'center'}}>
+                  <a onClick={()=>{addTokenToMetamask()}} target="_blank" className="btn more-btn-app" style={{margin:'2rem', color:'white'}}>{link3}</a>
+                </div>
+
               </div>
             </div>
             {HomeDemo1Or3Or4Or5Or6 && (
