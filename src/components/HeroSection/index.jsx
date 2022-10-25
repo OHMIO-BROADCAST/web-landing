@@ -85,7 +85,7 @@ const SecHeroSection = ({
                   <a href="https://app.ohmiobroadcast.io/" target="_blank" className="btn more-btn-app">{link2}</a>
                 </div>
                 <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s" style={{display:'flex', justifyContent:'center'}}>
-                  <a onClick={()=>{addTokenToMetamask()}} target="_blank" className="btn more-btn-app" style={{margin:'2rem', color:'whitegit '}}>{link3}</a>
+                  <a onClick={()=>{addTokenToMetamask()}} target="_blank" className="btn more-btn-app" style={{margin:'2rem', color:'white'}}>{link3}</a>
                 </div>
 
               </div>
