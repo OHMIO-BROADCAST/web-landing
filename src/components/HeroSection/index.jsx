@@ -59,7 +59,7 @@ const SecHeroSection = ({
           if (wasAdded) {
             console.log('Thanks for your interest!');
           } else {
-            console.log('HelloWorld Coin has not been added');
+            console.log('OHMIO has not been added');
           }
         } catch (error) {
           console.log(error);
