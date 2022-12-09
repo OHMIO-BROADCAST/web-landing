@@ -15,7 +15,7 @@ const SmartContract = ({data}) => {
                 <h4 className="fadeInUp" data-wow-delay="0.3s">Comprehensive smart contracts.</h4>
                 <p className="fadeInUp" data-wow-delay="0.4s">We are leading change in the broadcast industry using the benefits of the Internet of Value (IoV) and Internet of Things (IoT).</p>
                 <p className="fadeInUp" data-wow-delay="0.5s">Creating innovative devices that allow the use of the IoT to monitor your Broadcast Station in a way never seen before. Now you can connect your RF transmitters, connect your OHMIO Box and start to <text style={{textDecoration:'underline',fontWeight:'bold'}}>earn</text> OHMIO while ensuring and optimizing your processes.</p>
-                <a className="btn more-btn mt-30 fadeInUp" data-wow-delay="0.6s" href="https://app.ohmiobroadcast.io" target={'_blank'}>Start to Earn</a>
+                <a className="btn more-btn mt-30 fadeInUp" data-wow-delay="0.6s" href="https://main.d3thd78bg7l3yq.amplifyapp.com/" target={'_blank'}>Start to Earn</a>
               </div>
             </div>
             <div className="col-12 col-lg-6 offset-lg-0 mt-s">
