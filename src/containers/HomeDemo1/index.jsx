@@ -58,20 +58,20 @@ const HomeDemo1Container = () => {
 
     return (
       <div>
-        <Header Title="OHMIO | Broadcast Industry Token" />
+        <Header Title="NAB Show Event 2023 | OHMIO" />
         <SecHeroSection
           ClassSec="hero-section moving section-padding"
           ClassDiv="col-12 col-lg-5 col-md-12"
           specialHead="Creative landing page template"
-          title="Descentralized Crypto Trading Platform"
-          link1="Whitepaper"
-          link2="Buy Token"
-          img={HomeDemo1Platform1}
+          title="Broadcast Event"
+          link1="See More"
+          link2="OHMIO Rewards"
+          img={require('../../assets/img/nabshow.jpeg')}
         />
         <div className="clearfix" />
         <SecAbout
           imgDwon={false}
-          title="Descentralized Trading Platform"
+          title="Decentralized Trading Platform"
           text="Conecta la Blockchain con el mundo real y comienza a hacer trading en FOREX."
           img={HomeDemo1About1}
         />
@@ -83,7 +83,7 @@ const HomeDemo1Container = () => {
         <SecTrust data={SecTrustContent} />
         <OurServices data={Services} />
         <SmartContract data={SmartContractinfo} />
-        <OurPlatform data={PlatformIco} />
+        {/* <OurPlatform data={PlatformIco} />
         <SecPrices data={SecPricesInfo} />
         <div className="clearfix" />
         <SpreadMap
@@ -99,7 +99,7 @@ const HomeDemo1Container = () => {
         <Faq data={FaqInfo} />
         <OurTeam data={OurTeamInfo} />
         <Subscribe />
-        <OurBlog data={OurBlogInfo} />
+        <OurBlog data={OurBlogInfo} /> */}
         <FooterPages />
       </div>
     );

@@ -3,6 +3,7 @@ import BackgroundAnimation from '../Animations/Background/BackgroundAnimation.js
 
 import { use } from '@maticnetwork/maticjs'
 import Web3ClientPlugin from '@maticnetwork/maticjs-web3';
+import { Link } from 'react-router-dom';
 
 
 const SecHeroSection = ({
@@ -81,7 +82,7 @@ const SecHeroSection = ({
                 <h1>{title}</h1>
                 <p className="w-text fadeInUp" data-wow-delay="0.3s"><text style={{textDecoration:'underline'}}>OHMIO</text> is the solution for Broadcast Industry, using Blockchain technology and Internet of things (IoT). <text style={{textDecoration:'underline'}}>OHMIOBOX</text> makes possible tokenizing the efficiency and rating of transmission stations over the world.</p>
                 <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s" style={{display:'flex', justifyContent:'center'}}>
-                  <a href="https://ohmio.gitbook.io/" target="_blank" className="btn more-btn mr-3">{link1}</a>
+                  <Link to="/nab" target="_self" className="btn more-btn mr-3">{link1}</Link>
                   <a href="https://main.d3thd78bg7l3yq.amplifyapp.com//" target="_blank" className="btn more-btn-app">{link2}</a>
                 </div>
                 <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s" style={{display:'flex', justifyContent:'center'}}>

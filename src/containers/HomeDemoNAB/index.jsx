@@ -46,7 +46,7 @@ import OurBlog from '../../components/OurBlog'
 import OurPlatform from './OurPlatform'
 import TokenFeatures from "./TokenFeatures"
 
-const HomeNABContainer = () => {
+const HomeDemo3Container = () => {
 
     useEffect(() => {
       addRemoveClassBody('darker')
@@ -54,7 +54,7 @@ const HomeNABContainer = () => {
 
     return (
       <div>
-        <Header Title="NAB SHOW | 100th Broadcast Event 2023" />
+        <Header Title="NAB SHOW" />
         <SecHeroSection
           ClassSec="hero-section de-3 section-padding"
           ClassDiv="col-12 col-lg-5 col-md-12 "
@@ -125,4 +125,4 @@ const HomeNABContainer = () => {
     );
 };
 
-export default HomeNABContainer
+export default HomeDemo3Container

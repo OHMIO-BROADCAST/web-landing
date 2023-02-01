@@ -25,7 +25,7 @@ const HomeContainer = () => {
             <SectionDemo dataUp={dataUp} dataDown={dataDown} />
           </div>
         </section>
-        <div class="clearfix"></div>
+        <div className="clearfix"></div>
         <FooterHome />
       </>
     );
