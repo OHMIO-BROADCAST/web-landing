@@ -7,14 +7,20 @@ import ohmiobox from '../../../assets/img/uhf-transmitter-rs.png'
 import ohmiofondo2 from '../../../assets/img/bg-img/AMBIENTENFT2.png';
 
 import SectionHeading from "../../../components/SectionHeading"
+import { I18nextProvider, useTranslation } from 'react-i18next';
+
 
 const OurPlatform = ({data , ClassSpanTitle}) => {
+        const { t, i18n } = useTranslation();
 
-    return (
+  const i18nfile = i18n
+
+  return (
+          <I18nextProvider i18n={i18nfile}>
       <section className="features section-padding-100" id="products">
         <div className="container" >
           <SectionHeading
-            title="We present"
+            title={(t('ohmiobox-title-azul'))}
             text="OHMIO BOX"
             ClassSpanTitle={ClassSpanTitle}
           />
@@ -28,8 +34,8 @@ const OurPlatform = ({data , ClassSpanTitle}) => {
             <div className="service-img-wrapper how col-lg-5 col-md-9 col-sm-12 mt-s no-padding-right">
               <div className="features-list v2">
                 <div className="who-we-contant">
-                  <h4 className="w-text ">The OHMIO Box</h4>
-                  <p className="w-text ">This device is a dedicated piece of hardware that provides a node in order to interact with OHMIO Network from Broadcast Stations.</p>
+                  <h4 className="w-text ">{(t('ohmiobox-title'))}</h4>
+                  <p className="w-text ">{(t('ohmiobox-description'))}</p>
                 </div>
                 <ul className="list-marked">
                   {data && data.map((item , key) => (
@@ -42,6 +48,7 @@ const OurPlatform = ({data , ClassSpanTitle}) => {
           </div>
         </div>
       </section>
+      </I18nextProvider>
     );
 }
 

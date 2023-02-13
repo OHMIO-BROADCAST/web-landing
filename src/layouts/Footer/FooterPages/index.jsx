@@ -9,11 +9,34 @@ import SectionHeading from "../../../components/SectionHeading"
 import '../Footer.scss'
 
 import IcoName from '../../../data/data-layout/Footer/data-IcoName.json'
-import TextFooter from '../../../data/data-layout/Footer/data-TextFooter.json'
+import { I18nextProvider, useTranslation } from 'react-i18next';
 
-const FooterPages = ({ClassSpanTitle=""}) => {
+const FooterPages = ({ ClassSpanTitle = "" }) => {
+     const { t, i18n } = useTranslation();
+  const i18nfile = i18n
+
+  const TextFooter =[
+	{
+		"text1":" ",
+		"text3":" ",
+		"link3":"#",
+		"text4":" ",
+        "classBlock":"col-12 col-lg-3 col-md-6",
+        "classInfo":"contact_info mt-x text-center fadeInUp"
+	},
+	{
+		"title":t('footer-contact'),
+		"text3":" ",
+		"link3":"#",
+		"text4":"cto@ohmiobroadcast.io",
+        "classBlock":"col-12 col-lg-3 col-md-6",
+        "classInfo":"contact_info mt-s text-center fadeInUp",
+		"text5":false
+	}
+]
+
     return (
-
+    <I18nextProvider i18n={i18nfile}>
       <footer className="footer-area bg-img mt-5" style={{backgroundImage: `url(${FooterPattern})`}}>
         {/* ##### Contact Area Start ##### */}
         <div className="contact_us_area section-padding-0-0" id="contact">
@@ -97,7 +120,7 @@ const FooterPages = ({ClassSpanTitle=""}) => {
                       <div className="footer-logo">
                         <a href="#"><img draggable="false" src={FooterLogo} alt="logo" style={{width:'9rem'}}/> </a>
                       </div>
-                      <p>Powered by Blockchain (OHMIO) is a descentralized ecosystem for broadcast industry</p>
+                        <p>{t('footer-title')}</p>
                     </div>
                     <div className="footer-social-info fadeInUp" data-wow-delay="0.4s">
                       {IcoName && IcoName.map((item , key) => (
@@ -124,7 +147,8 @@ const FooterPages = ({ClassSpanTitle=""}) => {
             </div>
           </div>
         </div>
-      </footer>
+        </footer>
+        </I18nextProvider>
     );
 }
 

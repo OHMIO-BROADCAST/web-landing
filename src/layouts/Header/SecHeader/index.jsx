@@ -53,7 +53,7 @@ const SecHeader = ({Logo , dropdownItem , MenuInfo}) => {
                     :
                     (<div style={{ justifyContent:'center', display:'flex'}}>
                       <BR title="Portugues" style={{width:'2rem', marginRight:'0.5rem'}}/>
-                      PR
+                      PT
                       </div>))
                     }
                     </Dropdown.Toggle>
@@ -71,7 +71,7 @@ const SecHeader = ({Logo , dropdownItem , MenuInfo}) => {
                       Español
                       </Dropdown.Item>
                       <Dropdown.Item href="#" style={{color:'black', justifyContent:'center', display:'flex'}}
-                        onClick={()=>{changeLanguage('pr')}}>
+                        onClick={()=>{changeLanguage('pt')}}>
 
                       <BR title="Spanish" style={{width:'2rem', marginRight:'0.5rem'}}/>
                       Portuguese
@@ -82,7 +82,7 @@ const SecHeader = ({Logo , dropdownItem , MenuInfo}) => {
                   </li>
               <li className="lh-55px">
                 <a  href="https://main.d3thd78bg7l3yq.amplifyapp.com/" target="_self" className="btn login-btn ml-50">
-                  Launch DApp
+                  {t('header-app')}
                 </a>
               </li>
             </ul>

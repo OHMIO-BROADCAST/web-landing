@@ -1,16 +1,18 @@
 import SectionHeading from "../../../components/SectionHeading"
 
 import Block from "./Block"
+import { I18nextProvider, useTranslation } from 'react-i18next';
 
 const TokenFeatures = ({TokenFeaturesTop , TokenFeaturesMed , TokenFeaturesDown , ClassSpanTitle}) => {
-
+     const { t, i18n } = useTranslation();
+  const i18nfile = i18n
     return (
-
+    <I18nextProvider i18n={i18nfile}>
       <section className="about-us-area features section-padding-100-70 clearfix">
         <div className="container">
           <SectionHeading
-            title="Token and Product Features"
-            text="Why choose us"
+            title={t("features-title-azul")}
+            text={t("features-title")}
             ClassSpanTitle={ClassSpanTitle}
           />
           <div className="row align-items-center">
@@ -46,7 +48,8 @@ const TokenFeatures = ({TokenFeaturesTop , TokenFeaturesMed , TokenFeaturesDown 
             </div>
           </div>
         </div>
-      </section>
+        </section>
+    </I18nextProvider>
     );
 
 }

@@ -1,9 +1,13 @@
 import Swal from 'sweetalert2'
+import { I18nextProvider, useTranslation } from 'react-i18next';
 
 const SpreadMap = ({Wwhitepaper , SectionIcon11}) => {
 
-  return (
+    const { t, i18n } = useTranslation();
+  const i18nfile = i18n
 
+  return (
+    <I18nextProvider i18n={i18nfile}>
     <section className="spread-map download" id="wallet">
       <div className="container">
         <div className="row align-items-center">
@@ -17,8 +21,8 @@ const SpreadMap = ({Wwhitepaper , SectionIcon11}) => {
               <div className="dream-dots text-left">
                 <img draggable="false" src={SectionIcon11} alt="" />
               </div>
-              <h4 className="text-white">Download our Wallet</h4>
-              <p className="text-white">In order to interact with our platform you need a wallet capable of using the Polygon Network, there are many options on the market, we directly suggest our multi-chain guarded wallet. Here you can centralize your funds and receive constant benefits.</p>
+              <h4 className="text-white">{t('wallet-title')}</h4>
+              <p className="text-white">{t('wallet-description')}</p>
               <a className="btn dream-btn mt-30" onClick={() => {
         Swal.fire({
           text: 'Stay tune',
@@ -26,7 +30,7 @@ const SpreadMap = ({Wwhitepaper , SectionIcon11}) => {
           icon: 'success'
         })
       }}>
-                Get Android
+                {t('wallet-android')}
               </a>
               <a className="btn dream-btn mt-30 ml-5" onClick={() => {
         Swal.fire({
@@ -35,13 +39,14 @@ const SpreadMap = ({Wwhitepaper , SectionIcon11}) => {
           icon: 'success'
         })
       }}>
-              Get IOs
+              {t('wallet-ios')}
               </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
+      </section>
+      </I18nextProvider>
   );
 
 }
