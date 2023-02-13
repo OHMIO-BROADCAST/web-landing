@@ -54,7 +54,7 @@ const HomeNABContainer = () => {
 
     return (
       <div>
-        <Header Title="NAB SHOW | 100th Broadcast Event 2023" />
+        <Header Title="OHMIO Broadcast | Descentralized Technology for Broadcast Industry" />
         <SecHeroSection
           ClassSec="hero-section de-3 section-padding"
           ClassDiv="col-12 col-lg-5 col-md-12 "
