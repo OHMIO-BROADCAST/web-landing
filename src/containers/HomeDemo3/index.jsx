@@ -88,10 +88,10 @@ const HomeNABContainer = () => {
         <SpreadMap
             Wwhitepaper={HomeDemo3Wwhitepaper}
         />
-        <TokenDistribution
+        {/* <TokenDistribution
             data={TokenDistributionInfo}
             ClassSpanTitle="gradient-text blue"
-        />
+        /> */}
         <Roadmap
             data={RoadmapInfo}
             ClassSpanTitle="gradient-text blue"
